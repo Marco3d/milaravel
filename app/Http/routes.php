@@ -16,4 +16,6 @@ Route::get('/', function () {
 });
 
 
-
+Route::get('pruebas', [
+	'uses' => 'TestController@index'
+	]);
